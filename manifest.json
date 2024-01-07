@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Screenshotty",
+    "version": "1.0",
+    "background": {
+        "service_worker": "play.js"
+    },
+    "commands": {
+        "inject-script": {
+            "suggested_key": "Ctrl+Shift+6",
+            "description": "screen shot and open social media"
+        }
+    }
+}
